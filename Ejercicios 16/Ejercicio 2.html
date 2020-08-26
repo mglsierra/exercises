@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Dados</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>Verificador de Dados</header>
+    <section>
+        <div>
+            <p>Nome</p>
+            <input type="text" name="txtnome" value = "Coloque seu nome" id="txtnome" onclick="deletar()" >
+        </div>
+            <p>Ano de Nascimento</p>
+            <input type="number" name="datanac" id="datanac" min="0">
+        <div>
+            <p>Sexo</p>
+            <input type="radio" name="sex" id="masc" checked>
+            <label for="Masc">Masculino</label>
+            <input type="radio" name="sex" id="fem">
+            <label for="fem">Feminino</label>
+        </div>
+
+        <div id="res">Prencha os dados por favor</div>
+
+        <input type="button" value="Verificar" onclick="verificar()">
+
+    </section>
+
+    <footer>&copy;Site criado pelo Miguel</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

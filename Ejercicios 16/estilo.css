@@ -1,0 +1,41 @@
+body{
+    background: rgb(147, 147, 250);
+    font: normal 15pt Arial;
+}
+
+
+
+
+header {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+section {
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.479);
+
+
+}
+
+div#res {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+
+}
+
+input#txtnome {
+    color: gray;
+}
